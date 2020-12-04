@@ -20,7 +20,7 @@ class Player:
         # % health % % armor % % activeweapon % % shells % % nails %
         # % rockets % % cells % % quad % % pent % % ring % % sg %
         # % ssg % % ng % % sng % % gl % % rl % % lg %
-        self.stats = [None] * statistics.MAX_CL_STATS
+        self.stats = [0] * statistics.MAX_CL_STATS
 
         self.armors_taken = {"green": 0, "yellow": 0, "red": 0}
         self.powerups_taken = {"quad": 0, "ring": 0, "pent": 0}

@@ -1,3 +1,5 @@
 demo.mvd
 demo2.mvd
 demo3.mvd
+.idea/
+__pycache__
